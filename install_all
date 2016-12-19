@@ -15,6 +15,7 @@ sudo apt install npm -y
 
 sudo apt-get install python3-dev -y
 # sudo apt-get install python-dev -y
+sudo apt-get install python3-pip
 
 # Needed for Python-LDap
 sudo apt-get install libldap2-dev
