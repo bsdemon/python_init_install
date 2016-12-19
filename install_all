@@ -1,0 +1,39 @@
+sudo apt-get update
+sudo apt-get upgrade
+
+sudo apt-get install ipython -y 
+sudo apt-get install ipython3 -y
+sudo apt install python-pip -y
+
+sudo pip install virtualenvwrapper
+echo 'export WORKON_HOME=$HOME/.virtualenvs' >> ~/.bashrc
+echo 'export PROJECT_HOME=$HOME/Devel' >> ~/.bashrc
+echo 'source /usr/local/bin/virtualenvwrapper.sh' >> ~/.bashrc
+
+sudo apt install git -y
+sudo apt install npm -y
+
+sudo apt-get install python3-dev -y
+# sudo apt-get install python-dev -y
+
+# Needed for Python-LDap
+sudo apt-get install libldap2-dev
+sudo apt-get install libsasl2-dev
+sudo apt-get install python-ldap
+
+# Install PostgreSQL
+sudo apt-get install postgresql postgresql-contrib -y
+
+# Install Python-psycopg2 for Django to work with postgres
+sudo apt-get install python-psycopg2 -y
+sudo apt-get install libpq-dev -y
+
+# Install MySQL
+sudo apt-get install mysql-server libmysqlclient-dev -y
+
+# Config MySQL server
+#sudo mysql_secure_installation
+
+sudo npm install -g grunt-cli
+
+exec bash
