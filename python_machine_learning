@@ -1,0 +1,7 @@
+echo "WAIT FOR IT! IT TAKES SOME MINUTES"
+pip3 install pydot2
+pip3 install xlrd
+pip3 install scikit_learn
+
+echo "--- WAIT FOR IT! IT TAKES SOME MINUTES ---"
+pip3 install statsmodels
