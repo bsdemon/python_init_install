@@ -11,7 +11,9 @@ echo 'export PROJECT_HOME=$HOME/Devel' >> ~/.bashrc
 echo 'source /usr/local/bin/virtualenvwrapper.sh' >> ~/.bashrc
 
 sudo apt install git -y
+git config --global push.default simple
 sudo apt install npm -y
+
 
 sudo apt-get install python3-dev -y
 # sudo apt-get install python-dev -y
