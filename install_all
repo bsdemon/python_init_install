@@ -36,7 +36,7 @@ sudo apt-get install libpq-dev -y
 
 # Install MySQL
 sudo apt-get install mysql-server libmysqlclient-dev -y
-
+sudo apt-get install mysql-workbench
 # Config MySQL server
 #sudo mysql_secure_installation
 
@@ -52,3 +52,4 @@ if ! grep  -Fq "bash-it" ~/.bashrc;
 fi
 
 exec bash
+
