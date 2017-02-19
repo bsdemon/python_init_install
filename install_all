@@ -5,10 +5,11 @@ sudo apt-get install ipython -y
 sudo apt-get install ipython3 -y
 sudo apt install python-pip -y
 
-sudo pip install virtualenvwrapper
-echo 'export WORKON_HOME=$HOME/.virtualenvs' >> ~/.bashrc
-echo 'export PROJECT_HOME=$HOME/Devel' >> ~/.bashrc
-echo 'source /usr/local/bin/virtualenvwrapper.sh' >> ~/.bashrc
+#sudo pip install virtualenvwrapper
+#echo 'export WORKON_HOME=$HOME/.virtualenvs' >> ~/.bashrc
+#echo 'export PROJECT_HOME=$HOME/Devel' >> ~/.bashrc
+#echo 'source /usr/local/bin/virtualenvwrapper.sh' >> ~/.bashrc
+sudo apt install virtualenvwrapper
 
 sudo apt install git -y
 git config --global push.default simple
@@ -21,6 +22,7 @@ sudo apt-get install python3-pip
 sudo pip3 install pyflakes
 sudo pip3 install pep8
 sudo pip3 install ipdb
+sudo apt-get install python3-setuptools
 
 # Needed for Python-LDap
 sudo apt-get install libldap2-dev
