@@ -42,16 +42,5 @@ sudo apt-get install mysql-workbench
 # Config MySQL server
 sudo mysql_secure_installation
 
-#sudo npm install -g grunt-cli
-
-#if ! grep  -Fq "bash-it" ~/.bashrc;
-#  then
-#    echo ======= Installing Bash-it =======
-#    git clone --depth=1 https://github.com/Bash-it/bash-it.git ~/.bash_it;    
-#    ~/.bash_it/install.sh
-#  else
-#    echo ===== Bash-it already installed =====
-#fi
-
-#exec bash
-
+sudo apt-get install fonts-powerline
+pip install powerline-status
