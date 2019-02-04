@@ -15,14 +15,13 @@ sudo apt install git -y
 git config --global push.default simple
 sudo apt install npm -y
 
-
+sudo apt-get install python3-setuptools
 sudo apt-get install python3-dev -y
 # sudo apt-get install python-dev -y
 sudo apt-get install python3-pip
 sudo pip3 install pyflakes
 sudo pip3 install pep8
 sudo pip3 install ipdb
-sudo apt-get install python3-setuptools
 
 # Needed for Python-LDap
 sudo apt-get install libldap2-dev
