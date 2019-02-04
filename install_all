@@ -41,5 +41,4 @@ sudo apt-get install mysql-workbench
 # Config MySQL server
 sudo mysql_secure_installation
 
-sudo apt-get install fonts-powerline
-pip install powerline-status
+pip install powerline-shell
