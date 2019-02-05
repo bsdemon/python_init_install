@@ -16,6 +16,7 @@ git config --global push.default simple
 sudo apt install npm -y
 
 sudo apt-get install python3-setuptools
+sudo apt-get install python-setuptools
 sudo apt-get install python3-dev -y
 # sudo apt-get install python-dev -y
 sudo apt-get install python3-pip
