@@ -4,6 +4,7 @@ sudo apt-get upgrade
 sudo apt-get install ipython -y 
 sudo apt-get install ipython3 -y
 sudo apt install python-pip -y
+pip install wheel
 
 #sudo pip install virtualenvwrapper
 #echo 'export WORKON_HOME=$HOME/.virtualenvs' >> ~/.bashrc
